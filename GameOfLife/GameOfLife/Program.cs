@@ -11,7 +11,7 @@ namespace Game_of_life
     {
         static void Main(string[] args)
         {
-            // height and width of ground
+            // Height and width of ground
             int h = 21;
             int w = 21;
             string[,] l1 = new string[h, w];
@@ -24,8 +24,7 @@ namespace Game_of_life
             // l1[5, 0] = " *"; l1[5, 1] = " *"; l1[5, 2] = " *"; l1[5, 3] = " *"; l1[5, 4] = " *";l1[5, 5] = " *";
 
 
-            // create random cell in ground
-
+            // Create random cell in ground
             Random x = new Random();
             for (int i = 0; i < h; i++)
             {
@@ -42,8 +41,7 @@ namespace Game_of_life
             }
 
 
-
-
+            // Show ground in step 1:
             for (int i = 0; i < h; i++)
             {
                 for (int j = 0; j < w; j++)
@@ -55,6 +53,7 @@ namespace Game_of_life
             }
 
 
+            // Roles of game:
             for (; ; )
             {
                 Thread.Sleep(100);
@@ -453,6 +452,7 @@ namespace Game_of_life
                 }
 
 
+                // Show ground in steps:
                 for (int i = 0; i < h; i++)
                 {
                     for (int j = 0; j < w; j++)
