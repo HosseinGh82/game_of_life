@@ -258,7 +258,6 @@ namespace Game_of_life
                         ///////////////////////////////////////////
 
 
-
                         if (l1[i, j] == " *")
                         {
                             if (i == 0 && (j != 0 && j != w - 1))
@@ -446,7 +445,6 @@ namespace Game_of_life
 
                             nn = 0;
 
-
                         }
                     }
                 }
@@ -465,10 +463,7 @@ namespace Game_of_life
                     }
                     Console.WriteLine();
                 }
-
-
             }
-
             Console.ReadKey();
         }
     }
