@@ -11,7 +11,7 @@ namespace Game_of_life
     {
         static void Main(string[] args)
         {
-
+            // height and width of ground
             int h = 21;
             int w = 21;
             string[,] l1 = new string[h, w];
@@ -23,6 +23,8 @@ namespace Game_of_life
             // l1[4, 0] = " *"; l1[4, 1] = " *"; l1[4, 2] = " *"; l1[4, 3] = " *"; l1[4, 4] = " *";l1[4, 5] = " *";
             // l1[5, 0] = " *"; l1[5, 1] = " *"; l1[5, 2] = " *"; l1[5, 3] = " *"; l1[5, 4] = " *";l1[5, 5] = " *";
 
+
+            // create random cell in ground
 
             Random x = new Random();
             for (int i = 0; i < h; i++)
